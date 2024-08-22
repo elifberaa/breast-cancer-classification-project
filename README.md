@@ -28,4 +28,5 @@ Projede elde edilen sonuçlar şunları içerir:
 
 
 SONUÇ
+
 Bu proje, meme kanseri tespiti problemini çözmek için çeşitli makine öğrenme modellerinin uygulanmasını göstermektedir. Bu modellerin performansını değerlendirerek hangi algoritmanın en iyi sonuçları verdiğini belirleyebilir ve gerçek dünya uygulamalarında kullanılmak üzere daha ileri geliştirme ve dağıtım yapılabilir.
