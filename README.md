@@ -3,22 +3,35 @@
 Bu proje, meme kanseri tespiti için makine öğrenme modelleri geliştirmeye ve değerlendirmeye odaklanmaktadır. Kullanılan veri seti, meme kanseri vakalarına ilişkin çeşitli özellikleri içermekte olup, amacım verilen bir vakanın iyi huylu mu yoksa kötü huylu mu olduğunu doğru bir şekilde tahmin edebilen modeller oluşturmaktır.
 
 
+Bu projeyi çalıştırmak için aşağıdaki Python kütüphaneleri kullanıldı:
+
+• Pandas (pd)
+
+• Matplotlib (plt)
+
+• Seaborn (sns)
+
+• NumPy (np)
+
+• Scikit-learn (sklearn)
+
 
 Bu projede kullanılan veri seti, Meme Kanseri Wisconsin (Tanısal) veri setidir. Aşağıdaki özellikleri içerir:
 
--Ortalama radyus
+• Ortalama radyus
 
--Ortalama doku
+• Ortalama doku
 
--Ortalama çevre
+• Ortalama çevre
 
--Ortalama alan
+• Ortalama alan
 
--Ortalama pürüzsüzlük
+• Ortalama pürüzsüzlük
 
--...ve diğer ilgili özellikler.
+• ...ve diğer ilgili özellikler.
 
 Hedef değişken, meme kanseri teşhis bilgisidir ve M (kötü huylu) veya B (iyi huylu) olarak iki kategoriye ayrılır.
+
 
 
 
@@ -36,13 +49,14 @@ Hedef değişken, meme kanseri teşhis bilgisidir ve M (kötü huylu) veya B (iy
 
 
 
+
 Projede elde edilen sonuçlar şunları içerir:
 
--Her modelin çapraz doğrulama ve test doğruluğu.
+1. Her modelin çapraz doğrulama ve test doğruluğu.
 
--Detaylı sınıflandırma raporları ve karışıklık matrisleri.
+2. Detaylı sınıflandırma raporları ve karışıklık matrisleri.
 
--Olasılık tahminleri olan modeller için ROC eğrileri ve AUC skorları.
+3. Olasılık tahminleri olan modeller için ROC eğrileri ve AUC skorları.
 
 
 SONUÇ
